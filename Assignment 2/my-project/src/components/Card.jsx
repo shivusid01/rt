@@ -7,7 +7,7 @@ const Card = ({ product }) => {
 
   const handleAdd = () => {
     setAdded(true);
-    toast.success(`${product.name} added!`); // ✅ Fixed template literal syntax
+    toast.success(`${product.name} added!`); 
   };
 
   return (
